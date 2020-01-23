@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ArrangeActAssert.IoC.TestFramework</id>
+    <version>1.0.2</version>
+    <title>Arrange Act Assert Ninject IoC Test Framework</title>
+    <authors>Rob Ives</authors>
+    <owners>Rob Ives</owners>
+    <description>
+      Test Driven Development (TDD) Arrange Act Assert (AAA) Inversion of Control (I0C)
+      framework that integrates NUnit, Moq, and Ninject for unit and integration testing.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      TDD AAA IoC Test Framework
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/TestFramework.NuGet.Packager</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright Erratic Motion Ltd 2014</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="NUnit" version="2.6.3" />
+          <dependency id="Moq" version="4.2.1409.1722" />
+          <dependency id="Ninject" version="3.2.2.0" />
+        </group>
+    </dependencies>
+    <references>
+    </references>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net40" />
+    </frameworkAssemblies>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
